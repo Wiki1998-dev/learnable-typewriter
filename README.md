@@ -109,6 +109,17 @@ tensorboard --logdir ./<run_dir>/
 
 _If you want to dive in deeper, check out our [experimental features](https://github.com/ysig/learnable-typewriter/blob/main/EXPERIMENTAL.md)._
 
+### ROCFT Scoring :pencil2:
+We provide a lightweight script to automatically score drawings from the
+Rey-Osterrieth Complex Figure Test (ROCFT). It compares each drawing with the
+reference figure using a structural similarity metric.
+
+```bash
+python scripts/rocft_score.py <REFERENCE_IMAGE> <DRAWING_OR_FOLDER>
+```
+
+Scores are reported on a 0-36 scale.
+
 ### Citing :dizzy:
 
 ```bibtex

@@ -11,3 +11,4 @@ coloredlogs
 tensorboard
 colorcet
 opencv-python
+scikit-image
